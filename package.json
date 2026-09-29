@@ -1,0 +1,10 @@
+{
+  "name": "onion-grading-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000",
+    "build": "cd frontend && npm run build"
+  }
+}
